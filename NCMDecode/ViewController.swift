@@ -21,7 +21,7 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var startButton: NSButton!
     @IBOutlet weak var progressView: NSProgressIndicator!
-    
+
     lazy var outputFolderURL: URL = {
         let path = NSHomeDirectory() + "/Music/NCMConvertOutput/"
         let url = URL(fileURLWithPath: path)
